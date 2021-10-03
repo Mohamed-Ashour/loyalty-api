@@ -12,6 +12,7 @@ services:
       - '3000:3000'
     volumes:
       - '.:/code'
+      - '/code/node_modules'
 
   postgres:
     image: postgres
